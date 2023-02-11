@@ -1,0 +1,27 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "npx lerna run dev",
+    "test": "npx lerna run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  },
+  "private": "true",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  }
+}
+
