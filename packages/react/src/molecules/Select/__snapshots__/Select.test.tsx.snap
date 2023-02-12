@@ -32,6 +32,49 @@ exports[`snapshot of the base state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      class="dse-select__overlay "
+      id="dse-select-list"
+      role="menu"
+      style="top: 0px;"
+    >
+      <li
+        aria-label="Sweet pink"
+        class="dse-select__option false false"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Sweet pink
+        </p>
+      </li>
+      <li
+        aria-label="bitter green"
+        class="dse-select__option false false"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          bitter green
+        </p>
+      </li>
+      <li
+        aria-label="sad dark"
+        class="dse-select__option false false"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          sad dark
+        </p>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
@@ -70,7 +113,7 @@ exports[`snapshot of the options menu open state 1`] = `
       </svg>
     </button>
     <ul
-      class="dse-select__overlay"
+      class="dse-select__overlay dse-select__overlay--open"
       id="dse-select-list"
       role="menu"
       style="top: 0px;"
@@ -84,7 +127,7 @@ exports[`snapshot of the options menu open state 1`] = `
         <p
           class="dse-text dse-text-base"
         >
-          Sweet pinkOK
+          Sweet pink
         </p>
       </li>
       <li
@@ -96,7 +139,7 @@ exports[`snapshot of the options menu open state 1`] = `
         <p
           class="dse-text dse-text-base"
         >
-          bitter greenOK
+          bitter green
         </p>
       </li>
       <li
@@ -108,7 +151,7 @@ exports[`snapshot of the options menu open state 1`] = `
         <p
           class="dse-text dse-text-base"
         >
-          sad darkOK
+          sad dark
         </p>
       </li>
     </ul>
@@ -148,6 +191,64 @@ exports[`snapshot of the selected option state 1`] = `
         />
       </svg>
     </button>
+    <ul
+      class="dse-select__overlay "
+      id="dse-select-list"
+      role="menu"
+      style="top: 0px;"
+    >
+      <li
+        aria-checked="true"
+        aria-label="Sweet pink"
+        class="dse-select__option dse-select__option--selected dse-select__option--highlighted"
+        role="menuitemradio"
+        tabindex="-1"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          Sweet pink
+        </p>
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          width="1rem"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4.5 12.75l6 6 9-13.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </li>
+      <li
+        aria-label="bitter green"
+        class="dse-select__option false false"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          bitter green
+        </p>
+      </li>
+      <li
+        aria-label="sad dark"
+        class="dse-select__option false false"
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <p
+          class="dse-text dse-text-base"
+        >
+          sad dark
+        </p>
+      </li>
+    </ul>
   </div>
 </DocumentFragment>
 `;
