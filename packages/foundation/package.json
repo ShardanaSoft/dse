@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/foundation",
+  "name": "@navoxds.e/foundation",
   "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
@@ -19,5 +19,7 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "89d430b8fe3a10996534b84cd63042b93c1c7eb2"
 }
+
