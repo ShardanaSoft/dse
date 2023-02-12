@@ -7,7 +7,7 @@ import React, {
 } from "react";
 
 import Text from "../../atoms/Text";
-import "@ds.e/scss/lib/Select.css";
+import "@navoxds.e/scss/lib/Select.css";
 interface SelectOption {
   label: string;
   value: string;
