@@ -1,6 +1,6 @@
 {
   "name": "@navoxds.e/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "lib/index.js",
   "type": "module",
@@ -47,4 +47,3 @@
   },
   "gitHead": "89d430b8fe3a10996534b84cd63042b93c1c7eb2"
 }
-
