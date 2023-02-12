@@ -1,6 +1,6 @@
 {
   "name": "@navoxds.e/scss",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -39,4 +39,3 @@
   },
   "gitHead": "cfcfe7cfdc7f30600f26ea985efd2ff9fc2c0713"
 }
-
