@@ -7,7 +7,6 @@
   "scripts": {
     "lint": "stylelint ./src/**/*.scss",
     "lint:fix": "npm run lint -- --fix",
-    "prepare": "husky install",
     "build": "node src/scripts/build.js",
     "dev": "nodemon --watch src --exec npm run build -e scss"
   },
@@ -37,5 +36,7 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "cfcfe7cfdc7f30600f26ea985efd2ff9fc2c0713"
 }
+
