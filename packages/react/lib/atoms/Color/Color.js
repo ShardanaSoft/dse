@@ -1,6 +1,6 @@
 import React from 'react';
-import { Spacing } from '@ds.e/foundation';
-export { Spacing } from '@ds.e/foundation';
+import { Spacing } from '@navoxds.e/foundation';
+export { Spacing } from '@navoxds.e/foundation';
 import '@navoxds.e/scss/lib/Utilities.css';
 
 const Color = ({ hexCode, width = Spacing.sm, height = Spacing.sm, }) => {

@@ -28889,7 +28889,7 @@ if ("development" === 'production') {
     }
   };
 }
-},{"react-dom":"../../../node_modules/react-dom/index.js"}],"../../../node_modules/@ds.e/foundation/lib/FontSize.js":[function(require,module,exports) {
+},{"react-dom":"../../../node_modules/react-dom/index.js"}],"../../../node_modules/@navoxds.e/foundation/lib/FontSize.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28905,7 +28905,7 @@ const fontSizes = {
 };
 var _default = Object.freeze(fontSizes);
 exports.default = _default;
-},{}],"../../../node_modules/@ds.e/foundation/lib/Spacing.js":[function(require,module,exports) {
+},{}],"../../../node_modules/@navoxds.e/foundation/lib/Spacing.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28934,7 +28934,7 @@ const spaces = {
 };
 var _default = Object.freeze(spaces);
 exports.default = _default;
-},{}],"../../../node_modules/@ds.e/foundation/lib/index.js":[function(require,module,exports) {
+},{}],"../../../node_modules/@navoxds.e/foundation/lib/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28955,7 +28955,7 @@ Object.defineProperty(exports, "Spacing", {
 var _FontSize = _interopRequireDefault(require("./FontSize"));
 var _Spacing = _interopRequireDefault(require("./Spacing"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./FontSize":"../../../node_modules/@ds.e/foundation/lib/FontSize.js","./Spacing":"../../../node_modules/@ds.e/foundation/lib/Spacing.js"}],"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"./FontSize":"../../../node_modules/@navoxds.e/foundation/lib/FontSize.js","./Spacing":"../../../node_modules/@navoxds.e/foundation/lib/Spacing.js"}],"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -29006,7 +29006,7 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../node_modules/@ds.e/scss/lib/Utilities.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../node_modules/@navoxds.e/scss/lib/Utilities.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -29026,8 +29026,8 @@ Object.defineProperty(exports, "Spacing", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-var _foundation = require("@ds.e/foundation");
-require("@ds.e/scss/lib/Utilities.css");
+var _foundation = require("@navoxds.e/foundation");
+require("@navoxds.e/scss/lib/Utilities.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Color = ({
   hexCode,
@@ -29043,7 +29043,7 @@ const Color = ({
   });
 };
 exports.default = Color;
-},{"react":"../../../node_modules/react/index.js","@ds.e/foundation":"../../../node_modules/@ds.e/foundation/lib/index.js","@ds.e/scss/lib/Utilities.css":"../../../node_modules/@ds.e/scss/lib/Utilities.css"}],"../../../node_modules/@ds.e/scss/lib/Text.css":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","@navoxds.e/foundation":"../../../node_modules/@navoxds.e/foundation/lib/index.js","@navoxds.e/scss/lib/Utilities.css":"../../../node_modules/@navoxds.e/scss/lib/Utilities.css"}],"../../../node_modules/@navoxds.e/scss/lib/Text.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -29057,8 +29057,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-var _foundation = require("@ds.e/foundation");
-require("@ds.e/scss/lib/Text.css");
+var _foundation = require("@navoxds.e/foundation");
+require("@navoxds.e/scss/lib/Text.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Text = ({
   size = _foundation.FontSize.base,
@@ -29070,7 +29070,7 @@ const Text = ({
   }, children);
 };
 exports.default = Text;
-},{"react":"../../../node_modules/react/index.js","@ds.e/foundation":"../../../node_modules/@ds.e/foundation/lib/index.js","@ds.e/scss/lib/Text.css":"../../../node_modules/@ds.e/scss/lib/Text.css"}],"../../../node_modules/@ds.e/scss/lib/margin.css":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","@navoxds.e/foundation":"../../../node_modules/@navoxds.e/foundation/lib/index.js","@navoxds.e/scss/lib/Text.css":"../../../node_modules/@navoxds.e/scss/lib/Text.css"}],"../../../node_modules/@navoxds.e/scss/lib/margin.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -29084,7 +29084,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-require("@ds.e/scss/lib/margin.css");
+require("@navoxds.e/scss/lib/margin.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Margin = ({
   space = "xxxs",
@@ -29105,7 +29105,7 @@ const Margin = ({
   }, children);
 };
 exports.default = Margin;
-},{"react":"../../../node_modules/react/index.js","@ds.e/scss/lib/margin.css":"../../../node_modules/@ds.e/scss/lib/margin.css"}],"../../../node_modules/@ds.e/scss/lib/Select.css":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","@navoxds.e/scss/lib/margin.css":"../../../node_modules/@navoxds.e/scss/lib/margin.css"}],"../../../node_modules/@navoxds.e/scss/lib/Select.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -29120,7 +29120,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _Text = _interopRequireDefault(require("../../atoms/Text/Text.js"));
-require("@ds.e/scss/lib/Select.css");
+require("@navoxds.e/scss/lib/Select.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -29278,7 +29278,7 @@ const Select = ({
   })));
 }; //test comments for git
 exports.default = Select;
-},{"react":"../../../node_modules/react/index.js","../../atoms/Text/Text.js":"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js","@ds.e/scss/lib/Select.css":"../../../node_modules/@ds.e/scss/lib/Select.css"}],"../../../node_modules/@ds.e/react/lib/index.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","../../atoms/Text/Text.js":"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js","@navoxds.e/scss/lib/Select.css":"../../../node_modules/@navoxds.e/scss/lib/Select.css"}],"../../../node_modules/@ds.e/react/lib/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29361,7 +29361,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2138" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2542" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
