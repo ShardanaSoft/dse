@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, createRef } from 'react';
 import Text from '../../atoms/Text/Text.js';
-import '@ds.e/scss/lib/Select.css';
+import '@navoxds.e/scss/lib/Select.css';
 
 const getNextOptionIndex = (currentIndex, options) => {
     if (currentIndex === null)
