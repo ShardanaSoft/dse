@@ -11,6 +11,6 @@ export default {
   output: { dir: "lib", format: "esm", sourcemap: true },
   plugins: [Ts()],
   preserveModules: true,
-  external: ["react", "react-dom", "ds.e/foundation"],
+  external: ["react", "react-dom", "@navoxds.e/foundation"],
 };
 

@@ -1,6 +1,6 @@
 import ReactDOMClient from "react-dom/client";
-import { Color, Text, Margin, Select } from "@ds.e/react";
 import React from "react";
+import { Color, Margin, Select, Text } from "@navoxds.e/react";
 
 const options = [
   {
@@ -22,10 +22,10 @@ const root = ReactDOMClient.createRoot(container!);
 
 root.render(
   <>
-    {/* <Color hexCode="#18723add" width="xxl" height="lg" />
+    <Color hexCode="#18723add" width="xxl" height="lg" />
     <Margin>
       <Text size="sm">Text test</Text>
-    </Margin> */}
+    </Margin>
     <Select
       options={options}
       label="Please select "

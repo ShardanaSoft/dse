@@ -29012,7 +29012,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/react/lib/atoms/Color/Color.js":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@navoxds.e/react/lib/atoms/Color/Color.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29049,7 +29049,7 @@ exports.default = Color;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@navoxds.e/react/lib/atoms/Text/Text.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29076,7 +29076,7 @@ exports.default = Text;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/react/lib/atoms/Margin/Margin.js":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@navoxds.e/react/lib/atoms/Margin/Margin.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29111,7 +29111,7 @@ exports.default = Margin;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@ds.e/react/lib/molecules/Select/Select.js":[function(require,module,exports) {
+},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/@navoxds.e/react/lib/molecules/Select/Select.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29278,7 +29278,7 @@ const Select = ({
   })));
 }; //test comments for git
 exports.default = Select;
-},{"react":"../../../node_modules/react/index.js","../../atoms/Text/Text.js":"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js","@navoxds.e/scss/lib/Select.css":"../../../node_modules/@navoxds.e/scss/lib/Select.css"}],"../../../node_modules/@ds.e/react/lib/index.js":[function(require,module,exports) {
+},{"react":"../../../node_modules/react/index.js","../../atoms/Text/Text.js":"../../../node_modules/@navoxds.e/react/lib/atoms/Text/Text.js","@navoxds.e/scss/lib/Select.css":"../../../node_modules/@navoxds.e/scss/lib/Select.css"}],"../../../node_modules/@navoxds.e/react/lib/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29313,12 +29313,12 @@ var _Text = _interopRequireDefault(require("./atoms/Text/Text.js"));
 var _Margin = _interopRequireDefault(require("./atoms/Margin/Margin.js"));
 var _Select = _interopRequireDefault(require("./molecules/Select/Select.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./atoms/Color/Color.js":"../../../node_modules/@ds.e/react/lib/atoms/Color/Color.js","./atoms/Text/Text.js":"../../../node_modules/@ds.e/react/lib/atoms/Text/Text.js","./atoms/Margin/Margin.js":"../../../node_modules/@ds.e/react/lib/atoms/Margin/Margin.js","./molecules/Select/Select.js":"../../../node_modules/@ds.e/react/lib/molecules/Select/Select.js"}],"index.tsx":[function(require,module,exports) {
+},{"./atoms/Color/Color.js":"../../../node_modules/@navoxds.e/react/lib/atoms/Color/Color.js","./atoms/Text/Text.js":"../../../node_modules/@navoxds.e/react/lib/atoms/Text/Text.js","./atoms/Margin/Margin.js":"../../../node_modules/@navoxds.e/react/lib/atoms/Margin/Margin.js","./molecules/Select/Select.js":"../../../node_modules/@navoxds.e/react/lib/molecules/Select/Select.js"}],"index.tsx":[function(require,module,exports) {
 "use strict";
 
 var _client = _interopRequireDefault(require("react-dom/client"));
-var _react = require("@ds.e/react");
-var _react2 = _interopRequireDefault(require("react"));
+var _react = _interopRequireDefault(require("react"));
+var _react2 = require("@navoxds.e/react");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var options = [{
   label: "Sweet pink",
@@ -29332,11 +29332,17 @@ var options = [{
 }];
 var container = document.getElementById("root");
 var root = _client.default.createRoot(container);
-root.render(_react2.default.createElement(_react2.default.Fragment, null, _react2.default.createElement(_react.Select, {
+root.render(_react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_react2.Color, {
+  hexCode: "#18723add",
+  width: "xxl",
+  height: "lg"
+}), _react.default.createElement(_react2.Margin, null, _react.default.createElement(_react2.Text, {
+  size: "sm"
+}, "Text test")), _react.default.createElement(_react2.Select, {
   options: options,
   label: "Please select "
 })));
-},{"react-dom/client":"../../../node_modules/react-dom/client.js","@ds.e/react":"../../../node_modules/@ds.e/react/lib/index.js","react":"../../../node_modules/react/index.js"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react-dom/client":"../../../node_modules/react-dom/client.js","react":"../../../node_modules/react/index.js","@navoxds.e/react":"../../../node_modules/@navoxds.e/react/lib/index.js"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29361,7 +29367,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2542" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49927" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
