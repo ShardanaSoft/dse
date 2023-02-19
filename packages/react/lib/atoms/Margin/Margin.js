@@ -1,5 +1,5 @@
 import React from 'react';
-import '@navoxds.e/scss/lib/margin.css';
+import '@navoxds.e/scss/lib/Margin.css';
 
 const Margin = ({ space = "xxxs", bottom, left, right, top, children, }) => {
     let className = "";
