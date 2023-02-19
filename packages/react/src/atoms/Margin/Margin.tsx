@@ -1,6 +1,6 @@
 import React from "react";
 
-import "@navoxds.e/scss/lib/margin.css";
+import "@navoxds.e/scss/lib/Margin.css";
 
 import { Spacing } from "@navoxds.e/foundation";
 interface MarginProps {
