@@ -1,14 +1,16 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "npmClient": "npm",
   "stream": true,
   "useWorkspaces": true,
-  "packages": ["packages/*", "playgrounds/*"],
+  "packages": [
+    "packages/*",
+    "playgrounds/*"
+  ],
   "command": {
     "publish": {
       "conventionalCommits": true
     }
   }
 }
-
