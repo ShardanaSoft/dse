@@ -1,7 +1,7 @@
 import React from "react";
 import { Spacing } from "@navoxds.e/foundation";
 import "@navoxds.e/scss/lib/Utilities.css";
-interface ColorProps {
+export interface ColorProps {
     hexCode: string;
     width?: keyof typeof Spacing;
     height?: keyof typeof Spacing;

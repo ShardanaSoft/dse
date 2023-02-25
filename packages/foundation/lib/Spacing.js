@@ -18,4 +18,5 @@ const spaces = {
     // 72px
     xxxl: "xxxl",
 };
+// new comment
 export default Object.freeze(spaces);

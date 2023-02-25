@@ -1,7 +1,7 @@
 import React from "react";
 import "@navoxds.e/scss/lib/Margin.css";
 import { Spacing } from "@navoxds.e/foundation";
-interface MarginProps {
+export interface MarginProps {
     space?: keyof typeof Spacing;
     children: React.ReactNode;
     left?: boolean;
