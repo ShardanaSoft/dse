@@ -20,5 +20,4 @@ jobs:
               run: npm run build
             - name: Automated tests
               run: npm run test
-            - name: Visual regression tests
          
