@@ -8,7 +8,8 @@
     "dev": "npx lerna run dev",
     "test": "npx lerna run test",
     "publish": "npm run test && npm run build && npx lerna publish",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "build:storybook": "npm run build && npx lerna run run build-storybook"
   },
   "author": "",
   "license": "ISC",
