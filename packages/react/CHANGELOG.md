@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.3](https://shardanasoft/compare/v0.6.2...v0.6.3) (2023-02-26)
+
+
+### Bug Fixes
+
+* **docs:** added a comment about select ([c7311b1](https://shardanasoft/commits/c7311b113d131bc3804e28f9c3ddcf1480e1184f))
+
+
+
+
+
 ## [0.6.2](https://shardanasoft/compare/v0.6.1...v0.6.2) (2023-02-25)
 
 
